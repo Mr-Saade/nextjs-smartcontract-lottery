@@ -33,3 +33,4 @@ yarn-error.log*
 
 .yarnrc.yml
 .eslintrc.json
+yarn.lock
