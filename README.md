@@ -1,4 +1,5 @@
 # NextJS Smartcontract Lottery (Raffle) 
+This is the frontend code for the Hardhat-Lottery smartcontract repo.
 
 
 
