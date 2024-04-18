@@ -1,11 +1,10 @@
 # NextJS Smartcontract Lottery (Raffle) 
-This is the frontend code for the Hardhat-Lottery smartcontract repo.
+This is the frontend code for the Hardhat-Lottery Smart Contract repo.
 
 
 
 
-[Example App here!]()
-[Example App on IPFS here!]()
+![App](img/app.png)
 
 Built  using:
 NextJS
@@ -24,6 +23,7 @@ IPFS
   - [Formatting in VSCode](#formatting-in-vscode)
 - [Usage](#usage)
   - [Testing](#testing)
+  - [Deploying to IPFS](#deploying-to-ipfs)
 - [Deploy to IPFS using Fleek](#deploy-to-ipfs-using-fleek)
 - [Linting](#linting)
 - [Thank you!](#thank-you)
@@ -112,6 +112,35 @@ Head over to your [localhost](http://localhost:3000) and play with the lottery!
 I didn't write any front end tests 😢
 
 If you'd like to create some tests for this repo, please make a PR!
+
+# Deploying to IPFS
+
+1. Build your static code.
+
+```
+yarn build
+```
+
+2. Export your site
+
+```
+yarn next export
+```
+
+> Note: Some features of NextJS & Moralis are not static, in such a case, when you run the `yarn build` command you might run into errors. 
+
+3. Deploy to IPFS
+
+- [Download IPFS desktop](https://ipfs.io/#install)
+- Open your [IPFS desktop app](https://ipfs.io/)
+- Select `import` and choose the folder the above step just created (should be `out`)
+
+4. Copy the CID of the folder you pinned
+
+
+5. Get [IPFS companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch?hl=en) for your browser (or use [Brave Browser](https://brave.com/))
+
+5. Go to `ipfs://YOUR_CID_HERE` and see your ipfs deployed site!
 
 
 # Deploy to IPFS using Fleek
