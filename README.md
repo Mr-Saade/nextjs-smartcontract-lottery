@@ -2,7 +2,7 @@
 This is the frontend code for the Hardhat-Lottery Smart Contract repo.
 
 
-
+[App on IPFS here!](ipfs://QmWudNPu2tuPp3JidzkGSNYAPnFZGJb1eA3726fYqvRkSf)
 
 ![App](img/app.png)
 
